@@ -10,6 +10,7 @@ spec:
   type: ExternalName
   externalName: discoveryserver.ecgc
   ports:
-  - port: 8000
+  - port: 8001
+    targetPort: 8000
       
 
