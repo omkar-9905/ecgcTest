@@ -4,10 +4,10 @@ metadata:
   name: hr-backend-service
   labels:
     name: hr-backend-service
-    app: discoveryserver.ecgc
+    app: discoveryserver
 spec:
   selector:
-    app: discoveryserver.ecgc
+    app: discoveryserver
     name: hr-app-back-pod
   ports:
     - port: 8001
