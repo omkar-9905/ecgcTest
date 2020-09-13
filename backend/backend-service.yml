@@ -6,11 +6,8 @@ metadata:
     name: hr-backend-service
     app: discoveryserver
 spec:
-spec:
-  type: ExternalName
-  externalName: discoveryserver.ecgc
   ports:
   - port: 8001
-    targetPort: 8000
+    
       
 
