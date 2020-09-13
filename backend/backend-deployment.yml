@@ -4,7 +4,7 @@ metadata:
   labels: 
     app: discoveryserver
   name: hr-backend
-  namespace: ecgc
+  namespace: ecgcbackend
 spec: 
   replicas: 1
   selector: 
