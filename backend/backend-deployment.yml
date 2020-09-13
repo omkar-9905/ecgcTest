@@ -2,18 +2,18 @@ apiVersion: apps/v1
 kind: Deployment
 metadata: 
   labels: 
-    app: discoveryserver.ecgc
+    app: discoveryserver
   name: hr-backend
-  namespace: ecgcbackend
+  namespace: ecgc
 spec: 
   replicas: 1
   selector: 
     matchLabels:
-      app: discoveryserver.ecgc
+      app: discoveryserver
   template: 
     metadata: 
       labels: 
-        app: discoveryserver.ecgc
+        app: discoveryserver
         name: hr-app-back-pod
       name: hr-app-back-pod
     spec: 
