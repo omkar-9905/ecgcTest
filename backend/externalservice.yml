@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: hr-backend-service
+  name: ectername-service
   namespace: ecgcbackend
   labels:
-    name: hr-backend-service
+    name: extername-service
     app: discoveryserver
 spec:
   type: ExternalName
