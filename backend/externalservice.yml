@@ -8,6 +8,6 @@ metadata:
     app: discoveryserver
 spec:
   type: ExternalName
-  externalName: discoveryserver.ecgc.svc.cluster.local
+  externalName: discoveryserver.ecgc
   ports:
   - port: 8001
