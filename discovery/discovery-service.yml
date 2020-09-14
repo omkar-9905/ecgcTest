@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: discoveryserver-service
-  namespace: ecgcbac
+  namespace: ecgc
   labels:
     name: discoveryserver-service
     app: discoveryserver
